@@ -1,0 +1,103 @@
+
+keshav singla@Keshav MINGW64 ~
+$ cd c:
+
+keshav singla@Keshav MINGW64 /c
+$ cd keshav
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ ls
+test1.txt  test2.txt  test3.txt  test4.txt  test5.txt  vhjv.txt
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ git remote add origin https://github.com/keshavx123/keshav.git
+error: remote origin already exists.
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ git clone https://github.com/keshavx123/keshav.git
+Cloning into 'keshav'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ ls
+keshav/  test1.txt  test2.txt  test3.txt  test4.txt  test5.txt  vhjv.txt
+
+keshav singla@Keshav MINGW64 /c/keshav (master)
+$ cd keshav
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ ls
+README.md
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ touch text6.txt
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ git add .
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text6.txt
+
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ ls
+README.md  text6.txt
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text6.txt
+
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ git commit -m "hi"
+[main 4e140fd] hi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text6.txt
+
+keshav singla@Keshav MINGW64 /c/keshav/keshav (main)
+$ cd c:
+
+keshav singla@Keshav MINGW64 /c
+$ cd 'chitkara notes'
+bash: cd: chitkara notes: No such file or directory
+
+keshav singla@Keshav MINGW64 /c
+$ cd 'SCM notes'
+bash: cd: SCM notes: No such file or directory
+
+keshav singla@Keshav MINGW64 /c
+$ git origin
+git: 'origin' is not a git command. See 'git --help'.
+
+keshav singla@Keshav MINGW64 /c
+$ git remote
+fatal: not a git repository (or any of the parent directories): .git
+
+keshav singla@Keshav MINGW64 /c
+$
